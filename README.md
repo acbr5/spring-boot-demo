@@ -52,7 +52,7 @@ Bu yapının tercih edilme sebebi kodlar karmaşıklaştıkça yönetmesinin kol
   DTO istemci tarafına, DO veritabanı tarafına daha yakındır.
 
 
-#İlk Uygulama (Hello World)
+# İlk Uygulama (Hello World)
 
 - main/java/com/example/demo içerisine controller isimli bir klasör oluşturalım
   Controller kısmında uygulamaya istemci tarafından gelen istekler yönetilir. İstemciden böyle bir istek gelirse şunları yap vb.
@@ -85,7 +85,7 @@ Bu yapının tercih edilme sebebi kodlar karmaşıklaştıkça yönetmesinin kol
 * Service, Repository işlemlerinin yapıldığı interface'lerin başına @Repository, @Service yazılır. Bunun nedeni programda repository ve service sınıflarını Spring'e tanıtmak içindir.
 
 
-#UNIT Testleri
+# UNIT Testleri
 * junit, birim testi yapmayı sağlayan bağımlılıktır. RunWith() anotasyonunu kullanmak için pom.xml'e bu bağımlılık eklenir.
 * ModelMapper, iki farklı türü aralarındaki özellikleri birbirini tanıyacak şekilde map etmek için kullanılır. pom.xml'e org.modelmapper bağımlılığı eklendi.
 
@@ -93,7 +93,7 @@ Bu yapının tercih edilme sebebi kodlar karmaşıklaştıkça yönetmesinin kol
 - Birim testler için junit ve org.springframework bağımlılıkları pom.xml dosyasına eklendi.
 
 
-#Swagger UI
+# Swagger UI
 Uygulamanın içerisinde dokümantasyon oluşturulmasını sağlar. Swagger UI sayesinde GET, POST gibi metotlar gözlemlenebiliyor ve oluşturulan doküman içerisinde kodlar çalıştırılabilir.
 Oluşturulan metotları dokümante eder ve bunların gözlemlenip yönetilebileceği dinamik bir arayüz sunar.
 springfox-swagger2 ve springfox-swagger-ui bağımlılıkları kullanılır.
