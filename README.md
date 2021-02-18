@@ -1,4 +1,4 @@
-#Spring Initializr ile Spring-Boot Projesi Oluşturma
+# Spring Initializr ile Spring-Boot Projesi Oluşturma
 
 - https://start.spring.io/ web sitesine gidilir.
 
