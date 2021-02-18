@@ -14,14 +14,14 @@
 
 - Generate edilerek dosya indirilir.
 
-- İndirilen sıkıştırılmış dosya dışarı aktarılarak derleyicide açılır. (spring-demo isimli repository'de kodlar bulunmaktadır.)
+- İndirilen sıkıştırılmış dosya dışarı aktarılarak derleyicide açılır.
 
 
 # Spring Hakkında
 
-- .mvn bağımlıkları yöneten araçtır.
+- .mvn, bağımlıkları yöneten araçtır.
 
-- src programın kaynağını temsili eder.
+- src, programın kaynağını temsili eder.
 
 - target, program derendikten sonra oluşan sınıfları içerir fakat biz geliştirme yaparken src/main kısmı ile ilgileneceğiz.
 
@@ -101,8 +101,8 @@ springfox-swagger2 ve springfox-swagger-ui bağımlılıkları kullanılır.
 - config isimli bir paket oluşturuldu. Bu klasör içerisinde SwaggerConfig isimli sınıf oluşturuldu.
 - @Configuration anotasyonu, o sınıfın bir yapılandırma sınıfı olduğunu belirler.
 - @EnableSwagger2 anotasyonu, ayarların swagger için kullanılacağını belirtir ve aktive eder.
-- Yaplandırma ayarları bittikten sonra tarayıda http://localhost:8080/swagger-ui.html#/ adresi ziyaret edilir.
-- 
+- Yapılandırma ayarları bittikten sonra tarayıda http://localhost:8080/swagger-ui.html#/ adresi ziyaret edilir.
+
 
 ![alt text](https://github.com/acbr5/spring-boot-demo/blob/main/Screenshot%20at%202021-02-18%2022-05-26.png)
 
