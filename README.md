@@ -104,4 +104,6 @@ springfox-swagger2 ve springfox-swagger-ui bağımlılıkları kullanılır.
 - Yaplandırma ayarları bittikten sonra tarayıda http://localhost:8080/swagger-ui.html#/ adresi ziyaret edilir.
 - 
 
+![alt text](https://github.com/acbr5/spring-boot-demo/blob/main/Screenshot%20at%202021-02-18%2022-05-26.png)
+
 # spring-boot-demo
